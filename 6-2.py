@@ -13,7 +13,6 @@ for i in range(len(times)):
 times = [int(prod[0])]
 distance = [int(prod[1])]
 
-ans = 1
 
 print(int((times[0] + (times[0]**2 - 4*distance[0])**0.5)/2) - int((times[0] - (times[0]**2 - 4*distance[0])**0.5)/2))
 

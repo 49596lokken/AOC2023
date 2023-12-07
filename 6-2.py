@@ -1,7 +1,5 @@
 f = open("6.txt").read().splitlines()
 
-
-
 times = [int(i) for i in f[0].removeprefix("Time: ").strip().split(" ") if i != ""]
 distance = [int(i) for i in f[1].removeprefix("Distance: ").strip().split(" ") if i != ""]
 

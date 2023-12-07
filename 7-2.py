@@ -15,7 +15,6 @@ cards = ["J"] + no_j
 
 def cmp(h1, h2):
     #True if h1 better
-    h1_j, h2_j = False, False
     h1_old, h2_old = h1,h2
     
     if "J" in h1:

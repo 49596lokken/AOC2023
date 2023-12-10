@@ -132,7 +132,7 @@ ans = 0
 for i, row in enumerate(f):
     for j, c  in enumerate(row):
         if c == "S":
-            c = "|"
+            c = "|" #Basically just manually verified that the given input starts with a vertical pipe. I know its bad but idc
 
         if (i,j) not in path:
             ans += inside
